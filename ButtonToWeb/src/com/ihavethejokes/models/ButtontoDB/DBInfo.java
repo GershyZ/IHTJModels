@@ -12,10 +12,7 @@ import android.os.Bundle;
 public abstract class DBInfo {
 
 	public static final String TAG_SUCCESS = "Success";
-	public List<HashMap<String, Object>> data;
-	public String connUrl;
-	public String userName;
-	public String password;
+	public List<HashMap<String, Object>> data;	
 	public String phpUrl;
 
 	// JSON Node names
